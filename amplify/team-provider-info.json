@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-famco-dev-01931-authRole",
+      "UnauthRoleArn": "arn:aws:iam::992403436825:role/amplify-famco-dev-01931-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::992403436825:role/amplify-famco-dev-01931-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-famco-dev-01931-deployment",
+      "UnauthRoleName": "amplify-famco-dev-01931-unauthRole",
+      "StackName": "amplify-famco-dev-01931",
+      "StackId": "arn:aws:cloudformation:us-west-1:992403436825:stack/amplify-famco-dev-01931/fc41c470-9387-11ed-a56e-0603e75cc38b",
+      "AmplifyAppId": "dqd4e23bgvvgb"
+    }
+  }
+}

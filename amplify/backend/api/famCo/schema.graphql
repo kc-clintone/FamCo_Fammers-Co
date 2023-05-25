@@ -1,0 +1,14 @@
+type Report @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  image: [String]
+  description: String
+  userID: ID! @index(name: "byUser")
+}
+
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  username: String!
+  email: AWSEmail!
+  image: String
+  Reports: [Report] @hasMany(indexName: "byUser", fields: ["id"])
+}
